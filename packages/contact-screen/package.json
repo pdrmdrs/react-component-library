@@ -22,12 +22,15 @@
     "url": "git+https://github.com/pdrmdrs/react-component-library.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "dom-scripts --action=build --entry='./lib/index.ts'",
+    "start": "dom-scripts --action=start --entry='./lib/index.ts'"
   },
   "bugs": {
     "url": "https://github.com/pdrmdrs/react-component-library/issues"
   },
   "devDependencies": {
+    "@rcl/dom-scripts": "^1.0.0",
     "@types/react": "16.9.54",
     "react": "^17.0.1"
   },

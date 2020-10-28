@@ -15,10 +15,10 @@ module.exports = {
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
   },
-  // entry: path.resolve(__dirname, 'src', 'index.ts'),
+  entry: path.resolve(process.cwd(), 'lib', 'index.ts'),
   output: {
     filename: 'js/[name].[contenthash].js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(process.cwd(), 'dist'),
   },
   plugins: [
     new CleanWebpackPlugin(),

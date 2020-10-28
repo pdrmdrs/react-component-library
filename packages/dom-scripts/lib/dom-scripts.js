@@ -12,6 +12,7 @@ const argv = yargs(hideBin(process.argv)).argv
 const { entry, action } = argv
 
 function includeEntry(config) {
+  if (!entry) return config
   return merge(config, {
     entry: path.resolve(entry),
   })
@@ -19,9 +20,9 @@ function includeEntry(config) {
 
 function showResults(err, stats) {
   if (err) {
-    console.error(err.stack || err)
+    console.log('ERROR', err.stack || err)
     if (err.details) {
-      console.error(err.details)
+      console.log(err.details)
     }
     return
   }
@@ -29,11 +30,11 @@ function showResults(err, stats) {
   const info = stats.toJson()
 
   if (stats.hasErrors()) {
-    console.error(info.errors)
+    console.log(info.errors)
   }
 
   if (stats.hasWarnings()) {
-    console.warn(info.warnings)
+    console.log(info.warnings)
   }
 
   console.log(
