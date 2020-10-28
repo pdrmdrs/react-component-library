@@ -1,0 +1,28 @@
+{
+  "name": "react-component-library",
+  "version": "1.0.0",
+  "description": "Simple react component library, built with lerna focusing on hybrid components that will work on web and mobile, but will differ at the build time",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lerna run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdrmdrs/react-component-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdrmdrs/react-component-library/issues"
+  },
+  "homepage": "https://github.com/pdrmdrs/react-component-library#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "@rcl/main",
+  "version": "1.0.0",
+  "description": "Main module that holds all packages together in case someone wants to do a single import",
+  "author": "Pedro Medeiros <pedro.medeiros@corp.globo.com>",
+  "homepage": "https://github.com/pdrmdrs/react-component-library/tree/master/packages/main#readme",
+  "license": "MIT",
+  "main": "lib/main.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdrmdrs/react-component-library.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "dom-scripts --action=build --entry='./lib/main.ts'",
+    "start": "dom-scripts --action=start --entry='./lib/main.ts'"
+  },
+  "bugs": {
+    "url": "https://github.com/pdrmdrs/react-component-library/issues"
+  },
+  "dependencies": {
+    "@rcl/contact-screen": "^1.0.0",
+    "@rcl/home-screen": "^1.0.0"
+  },
+  "devDependencies": {
+    "@rcl/dom-scripts": "^1.0.0"
+  }
+}
