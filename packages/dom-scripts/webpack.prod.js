@@ -9,4 +9,8 @@ module.exports = merge(common, {
     minimize: false,
     minimizer: [new TerserPlugin()],
   },
+  output: {
+    filename: 'index.js',
+    path: path.resolve(process.cwd(), 'dist'),
+  },
 })

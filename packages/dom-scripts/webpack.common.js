@@ -1,5 +1,4 @@
 const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
@@ -16,16 +15,7 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.js'],
   },
   entry: path.resolve(process.cwd(), 'lib', 'index.ts'),
-  output: {
-    filename: 'js/[name].[contenthash].js',
-    path: path.resolve(process.cwd(), 'dist'),
-  },
-  plugins: [
-    new CleanWebpackPlugin(),
-    new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'public', 'index.html'),
-    }),
-  ],
+  plugins: [new CleanWebpackPlugin()],
   optimization: {
     splitChunks: {
       chunks: 'all',
