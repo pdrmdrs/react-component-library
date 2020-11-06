@@ -22,8 +22,8 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "dom-scripts --action=build --entry='./lib/main.ts'",
-    "start": "dom-scripts --action=start --entry='./lib/main.ts'"
+    "build": "dom-scripts --action=build --entry=./lib/main.ts",
+    "start": "dom-scripts --action=start --entry=./lib/main.ts"
   },
   "bugs": {
     "url": "https://github.com/pdrmdrs/react-component-library/issues"

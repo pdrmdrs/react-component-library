@@ -23,6 +23,8 @@
     "lerna": "^3.22.1"
   },
   "workspaces": [
-    "packages/*"
+    "entrypoints/*",
+    "screens/*",
+    "scripts/*"
   ]
 }

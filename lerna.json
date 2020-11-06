@@ -1,5 +1,5 @@
 {
-  "packages": ["packages/*"],
+  "packages": ["entrypoints/*", "screens/*", "scripts/*"],
   "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true,
