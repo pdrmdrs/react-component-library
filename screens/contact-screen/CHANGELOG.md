@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/pdrmdrs/react-component-library/compare/@rcl/contact-screen@1.1.0...@rcl/contact-screen@1.2.0) (2020-11-06)
+
+
+### Features
+
+* adiciona OLA MUNDO na contact-screen ([ddaf5f8](https://github.com/pdrmdrs/react-component-library/commit/ddaf5f836281991d0d4664157ddeccdaf1280a69))
+* adiciona prop de contato ([5f094da](https://github.com/pdrmdrs/react-component-library/commit/5f094da5b3f257d39fd5e9500b901efb305f0d4a))
+
+
+
+
+
 # 1.1.0 (2020-11-06)
 
 
