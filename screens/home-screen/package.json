@@ -6,7 +6,7 @@
   "author": "Pedro Medeiros <pedro.medeiros@corp.globo.com>",
   "homepage": "https://github.com/pdrmdrs/react-component-library/tree/master/packages/home-screen#readme",
   "license": "MIT",
-  "main": "src/home-screen.tsx",
+  "main": "dist/index.js",
   "directories": {
     "src": "src",
     "test": "__tests__"
@@ -23,7 +23,8 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "dom-scripts --action=build --entry=./src/index.ts"
+    "build": "dom-scripts --action=build --entry=./src/index.ts",
+    "watch": "dom-scripts --action=start --entry=./src/index.ts"
   },
   "bugs": {
     "url": "https://github.com/pdrmdrs/react-component-library/issues"

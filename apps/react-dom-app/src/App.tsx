@@ -1,12 +1,13 @@
 import React from 'react'
-import { ContactScreen, HomeScreen } from '@rcl/main'
+import { ContactScreen } from '@rcl/main'
+import HomeScreen from '@rcl/home-screen'
 import './App.css'
 
 function App() {
   return (
     <>
       <ContactScreen />
-      <HomeScreen />
+      <HomeScreen name="Pedro" />
     </>
   )
 }

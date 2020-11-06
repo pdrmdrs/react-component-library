@@ -1,11 +1,13 @@
 import React from 'react'
 
-interface IProps {}
+interface IProps {
+  name: string
+}
 
-function HomeScreen(props: IProps): JSX.Element {
+function HomeScreen({ name }: IProps): JSX.Element {
   return (
     <div>
-      <h1>Home Screen</h1>
+      <h1>Home Screen {name}</h1>
     </div>
   )
 }
