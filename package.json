@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "lerna run build",
     "storybook": "lerna run storybook",
-    "new-version": "lerna version --conventional-commits --yes --scope={@rcl/main, @rcl/contact-screen, @rcl/home-screen}"
+    "new-version": "lerna version --conventional-commits --yes"
   },
   "repository": {
     "type": "git",
