@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactScreen from '../lib'
+import ContactScreen from '../src'
 
 export const Primary = () => <ContactScreen />
 

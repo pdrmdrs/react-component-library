@@ -9,13 +9,4 @@ module.exports = merge(common, {
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
   },
-  output: {
-    filename: 'js/index.js',
-    path: path.resolve(process.cwd(), 'dist'),
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'public', 'index.html'),
-    }),
-  ],
 })

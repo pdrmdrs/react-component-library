@@ -46,11 +46,13 @@ function showResults(err, stats) {
 }
 
 function build() {
-  webpack(includeEntry(prodConfig), showResults)
+  const compiler = webpack(includeEntry(prodConfig))
+  compiler.run(showResults)
 }
 
 function start() {
-  webpack(includeEntry(devConfig), showResults).watch()
+  const compiler = webpack(includeEntry(devConfig))
+  compiler.watch({}, showResults)
 }
 
 if (action === 'build') {

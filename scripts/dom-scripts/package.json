@@ -30,13 +30,9 @@
     "url": "https://github.com/pdrmdrs/react-component-library/issues"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "6.0.28",
-    "@storybook/addon-essentials": "6.0.28",
-    "@storybook/addon-links": "6.0.28",
-    "@storybook/react": "6.0.28",
     "clean-webpack-plugin": "3.0.0",
     "html-webpack-plugin": "4.5.0",
-    "terser-webpack-plugin": "5.0.2",
+    "terser-webpack-plugin": "4.2.3",
     "ts-loader": "8.0.7",
     "typescript": "4.0.5",
     "webpack": "4.44.2",

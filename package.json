@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "lerna run build"
+    "build": "lerna run build --scope=@rcl/main",
+    "storybook": "lerna run storybook"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   "workspaces": [
     "entrypoints/*",
     "screens/*",
-    "scripts/*"
+    "scripts/*",
+    "apps/*"
   ]
 }

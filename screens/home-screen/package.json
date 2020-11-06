@@ -6,13 +6,13 @@
   "author": "Pedro Medeiros <pedro.medeiros@corp.globo.com>",
   "homepage": "https://github.com/pdrmdrs/react-component-library/tree/master/packages/home-screen#readme",
   "license": "MIT",
-  "main": "lib/home-screen.tsx",
+  "main": "src/home-screen.tsx",
   "directories": {
-    "lib": "lib",
+    "src": "src",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "publishConfig": {
     "registry": "https://registry.yarnpkg.com"
@@ -23,19 +23,17 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "start": "dom-scripts --action=start --entry='./lib/index.ts'"
+    "build": "dom-scripts --action=build --entry=./src/index.ts"
   },
   "bugs": {
     "url": "https://github.com/pdrmdrs/react-component-library/issues"
   },
   "devDependencies": {
-    "@rcl/dom-scripts": "^1.0.0",
     "@storybook/addon-actions": "6.0.28",
     "@storybook/addon-essentials": "6.0.28",
     "@storybook/addon-links": "6.0.28",
     "@storybook/react": "6.0.28",
-    "@types/react": "16.9.54",
-    "react": "^17.0.1"
+    "@types/react": "16.9.54"
   },
   "peerDependencies": {
     "react": "^17.0.1"

@@ -5,13 +5,14 @@
   "author": "Pedro Medeiros <pedro.medeiros@corp.globo.com>",
   "homepage": "https://github.com/pdrmdrs/react-component-library/tree/master/packages/main#readme",
   "license": "MIT",
-  "main": "lib/main.js",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
   "directories": {
-    "lib": "lib",
+    "src": "src",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "publishConfig": {
     "registry": "https://registry.yarnpkg.com"
@@ -22,8 +23,8 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "dom-scripts --action=build --entry=./lib/main.ts",
-    "start": "dom-scripts --action=start --entry=./lib/main.ts"
+    "build": "dom-scripts --action=build --entry=./src/main.ts",
+    "watch": "dom-scripts --action=start --entry=./src/main.ts"
   },
   "bugs": {
     "url": "https://github.com/pdrmdrs/react-component-library/issues"
@@ -33,10 +34,9 @@
     "@rcl/home-screen": "^1.0.0"
   },
   "devDependencies": {
-    "@rcl/dom-scripts": "^1.0.0",
-    "@storybook/addon-actions": "6.0.28",
-    "@storybook/addon-essentials": "6.0.28",
-    "@storybook/addon-links": "6.0.28",
-    "@storybook/react": "6.0.28"
+    "@rcl/dom-scripts": "^1.0.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1"
   }
 }
