@@ -30,11 +30,11 @@
     "url": "https://github.com/pdrmdrs/react-component-library/issues"
   },
   "dependencies": {
-    "@rcl/contact-screen": "^1.0.0",
-    "@rcl/home-screen": "^1.0.0"
+    "@rcl/contact-screen": "*",
+    "@rcl/home-screen": "*"
   },
   "devDependencies": {
-    "@rcl/dom-scripts": "^1.0.0"
+    "@rcl/dom-scripts": "*"
   },
   "peerDependencies": {
     "react": "^17.0.1"
