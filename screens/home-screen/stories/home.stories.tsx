@@ -1,7 +1,7 @@
 import React from 'react'
-import HomeScreen from '../lib'
+import HomeScreen from '../src'
 
-export const Primary = () => <HomeScreen />
+export const Primary = () => <HomeScreen name="Pedro" />
 
 export default {
   title: 'Home Screen',
