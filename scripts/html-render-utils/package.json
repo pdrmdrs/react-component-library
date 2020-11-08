@@ -1,0 +1,46 @@
+{
+  "name": "@rcl/html-render-utils",
+  "version": "1.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "Pedro Medeiros <pdr.mdrs@gmail.com>",
+  "homepage": "https://github.com/pdrmdrs/react-component-library/tree/master/entrypoints/html-render-utils#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "src": "src",
+    "dist": "dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdrmdrs/react-component-library.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build:html": "webpack"
+  },
+  "bugs": {
+    "url": "https://github.com/pdrmdrs/react-component-library/issues"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "3.0.0",
+    "terser-webpack-plugin": "4.2.3",
+    "ts-loader": "8.0.7",
+    "typescript": "4.0.5",
+    "webpack": "4.44.2",
+    "webpack-cli": "4.1.0",
+    "webpack-dev-server": "3.11.0",
+    "webpack-merge": "5.2.0"
+  }
+}
