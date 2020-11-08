@@ -1,0 +1,46 @@
+{
+  "name": "html-app",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Pedro Medeiros <pdr.mdrs@gmail.com>",
+  "homepage": "https://github.com/pdrmdrs/react-component-library/tree/master/entrypoints/html-app#readme",
+  "license": "MIT",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdrmdrs/react-component-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pdrmdrs/react-component-library/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.3",
+    "@babel/preset-env": "7.12.1",
+    "babel-loader": "8.1.0",
+    "clean-webpack-plugin": "3.0.0",
+    "html-webpack-plugin": "4.5.0",
+    "terser-webpack-plugin": "4.2.3",
+    "webpack": "4.44.2",
+    "webpack-cli": "4.1.0",
+    "webpack-dev-server": "3.11.0",
+    "webpack-merge": "5.2.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "watch": "yarn build -- --watch",
+    "start": "webpack serve --config webpack.dev.js"
+  },
+  "dependencies": {
+    "@rcl/home-screen": "^1.1.1",
+    "@rcl/html": "*"
+  }
+}
