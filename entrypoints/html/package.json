@@ -5,13 +5,13 @@
   "author": "Pedro Medeiros <pdr.mdrs@gmail.com>",
   "homepage": "https://github.com/pdrmdrs/react-component-library/tree/master/entrypoints/html#readme",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "html-dist/index.js",
   "directories": {
     "src": "src",
     "test": "__tests__"
   },
   "files": [
-    "dist"
+    "html-dist"
   ],
   "publishConfig": {
     "registry": "https://registry.yarnpkg.com"
@@ -21,7 +21,9 @@
     "url": "git+https://github.com/pdrmdrs/react-component-library.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build:html": "html-scripts --action=build --entry=./src/index.ts",
+    "watch:html": "html-scripts --action=start --entry=./src/index.ts"
   },
   "bugs": {
     "url": "https://github.com/pdrmdrs/react-component-library/issues"
@@ -29,5 +31,8 @@
   "dependencies": {
     "@rcl/contact-screen": "*",
     "@rcl/home-screen": "*"
+  },
+  "devDependencies": {
+    "@rcl/html-scripts": "*"
   }
 }
