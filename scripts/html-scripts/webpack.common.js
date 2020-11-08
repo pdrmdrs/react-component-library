@@ -6,8 +6,11 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        use: 'ts-loader',
+        loader: 'ts-loader',
         exclude: /node_modules/,
+        options: {
+          configFile: 'tsconfig.native.json',
+        },
       },
     ],
   },
@@ -16,28 +19,14 @@ module.exports = {
   },
   output: {
     filename: 'index.js',
-    path: path.resolve(process.cwd(), 'dist'),
+    path: path.resolve(process.cwd(), 'html-dist'),
     libraryTarget: 'umd',
   },
   plugins: [new CleanWebpackPlugin()],
-  optimization: {
-    splitChunks: {
-      chunks: 'all',
-    },
-    runtimeChunk: false,
-  },
-  externals: {
-    react: {
-      commonjs: 'react',
-      commonjs2: 'react',
-      amd: 'react',
-      root: 'React',
-    },
-    'react-dom': {
-      root: 'ReactDOM',
-      commonjs2: 'react-dom',
-      commonjs: 'react-dom',
-      amd: 'react-dom',
-    },
-  },
+  // optimization: {
+  //   // splitChunks: {
+  //   //   chunks: 'all',
+  //   // },
+  //   runtimeChunk: false,
+  // },
 }

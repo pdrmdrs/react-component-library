@@ -8,11 +8,10 @@
   "license": "MIT",
   "main": "lib/html-scripts.js",
   "bin": {
-    "dom-scripts": "lib/html-scripts.js"
+    "html-scripts": "lib/html-scripts.js"
   },
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
     "lib"
@@ -29,5 +28,16 @@
   },
   "bugs": {
     "url": "https://github.com/pdrmdrs/react-component-library/issues"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "3.0.0",
+    "terser-webpack-plugin": "4.2.3",
+    "ts-loader": "8.0.7",
+    "typescript": "4.0.5",
+    "webpack": "4.44.2",
+    "webpack-cli": "4.1.0",
+    "webpack-dev-server": "3.11.0",
+    "webpack-merge": "5.2.0",
+    "yargs": "16.1.0"
   }
 }
