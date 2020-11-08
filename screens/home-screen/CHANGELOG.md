@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/pdrmdrs/react-component-library/compare/@rcl/home-screen@1.1.1...@rcl/home-screen@1.2.0) (2020-11-08)
+
+
+### Features
+
+* **home-screen:** finaliza build para html ([5f68f51](https://github.com/pdrmdrs/react-component-library/commit/5f68f515c9604c11e6fc722e2ff0bd5af53955a6))
+
+
+
+
+
 ## [1.1.1](https://github.com/pdrmdrs/react-component-library/compare/@rcl/home-screen@1.1.0...@rcl/home-screen@1.1.1) (2020-11-06)
 
 **Note:** Version bump only for package @rcl/home-screen

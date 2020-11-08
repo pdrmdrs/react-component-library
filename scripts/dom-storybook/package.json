@@ -1,6 +1,6 @@
 {
   "name": "dom-storybook",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Storybook configuration to the DOM version",
   "author": "Pedro Medeiros <pdr.mdrs@gmail.com>",
   "homepage": "https://github.com/pdrmdrs/react-component-library/tree/master/packages/dom-storybook#readme",

@@ -1,6 +1,6 @@
 {
   "name": "@rcl/home-screen",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "Pedro Medeiros <pedro.medeiros@corp.globo.com>",
@@ -33,7 +33,7 @@
     "url": "https://github.com/pdrmdrs/react-component-library/issues"
   },
   "devDependencies": {
-    "@rcl/dom-scripts": "^1.1.0",
+    "@rcl/dom-scripts": "^1.1.1",
     "@storybook/addon-actions": "6.0.28",
     "@storybook/addon-essentials": "6.0.28",
     "@storybook/addon-links": "6.0.28",
@@ -44,6 +44,6 @@
     "react": "^17.0.1"
   },
   "dependencies": {
-    "@rcl/html-render-utils": "^1.0.0"
+    "@rcl/html-render-utils": "^1.1.0"
   }
 }

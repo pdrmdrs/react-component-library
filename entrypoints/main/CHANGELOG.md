@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.4](https://github.com/pdrmdrs/react-component-library/compare/@rcl/main@1.1.3...@rcl/main@1.1.4) (2020-11-08)
+
+
+### Bug Fixes
+
+* **main:** atualiza entrypoint do main ([0d1ceb3](https://github.com/pdrmdrs/react-component-library/commit/0d1ceb38f8bc71def1a36721020fd7ed8b327418))
+
+
+
+
+
 ## [1.1.3](https://github.com/pdrmdrs/react-component-library/compare/@rcl/main@1.1.2...@rcl/main@1.1.3) (2020-11-06)
 
 **Note:** Version bump only for package @rcl/main
