@@ -12,7 +12,8 @@
     "test": "__tests__"
   },
   "files": [
-    "src"
+    "dist",
+    "html-dist"
   ],
   "publishConfig": {
     "registry": "https://registry.yarnpkg.com"
@@ -24,12 +25,15 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "build": "dom-scripts --action=build --entry=./src/index.ts",
-    "watch": "dom-scripts --action=start --entry=./src/index.ts"
+    "watch": "dom-scripts --action=start --entry=./src/index.ts",
+    "build:html": "html-scripts --action=build --entry=./src/index.native.ts",
+    "watch:html": "html-scripts --action=start --entry=./src/index.native.ts"
   },
   "bugs": {
     "url": "https://github.com/pdrmdrs/react-component-library/issues"
   },
   "devDependencies": {
+    "@rcl/dom-scripts": "^1.1.0",
     "@storybook/addon-actions": "6.0.28",
     "@storybook/addon-essentials": "6.0.28",
     "@storybook/addon-links": "6.0.28",
