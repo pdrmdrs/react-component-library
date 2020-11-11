@@ -11,13 +11,6 @@ const prodConfig = require('../webpack.prod.js')
 const argv = yargs(hideBin(process.argv)).argv
 const { entry, action } = argv
 
-function includeEntry(config) {
-  if (!entry) return config
-  return merge(config, {
-    entry: path.resolve(entry),
-  })
-}
-
 function showResults(err, stats) {
   if (err) {
     console.log('ERROR', err.stack || err)
@@ -46,12 +39,12 @@ function showResults(err, stats) {
 }
 
 function build() {
-  const compiler = webpack(includeEntry(prodConfig))
+  const compiler = webpack(prodConfig)
   compiler.run(showResults)
 }
 
 function start() {
-  const compiler = webpack(includeEntry(devConfig))
+  const compiler = webpack(devConfig)
   compiler.watch({}, showResults)
 }
 

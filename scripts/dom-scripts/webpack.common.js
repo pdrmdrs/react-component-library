@@ -14,6 +14,7 @@ module.exports = {
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
   },
+  entry: path.resolve(process.cwd(), 'src', 'index.ts'),
   output: {
     filename: 'index.js',
     path: path.resolve(process.cwd(), 'dist'),
