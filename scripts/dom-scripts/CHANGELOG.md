@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/pdrmdrs/react-component-library/compare/@rcl/dom-scripts@1.1.1...@rcl/dom-scripts@1.2.0) (2020-11-11)
+
+
+### Features
+
+* **dom-scripts:** adiciona entrypoint default ([9c9071b](https://github.com/pdrmdrs/react-component-library/commit/9c9071b07ca4355935b572ba067ea230b6ef275e))
+
+
+
+
+
 ## [1.1.1](https://github.com/pdrmdrs/react-component-library/compare/@rcl/dom-scripts@1.1.0...@rcl/dom-scripts@1.1.1) (2020-11-08)
 
 **Note:** Version bump only for package @rcl/dom-scripts

@@ -1,6 +1,6 @@
 {
   "name": "html-app",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "> TODO: description",
   "author": "Pedro Medeiros <pdr.mdrs@gmail.com>",
   "homepage": "https://github.com/pdrmdrs/react-component-library/tree/master/entrypoints/html-app#readme",
@@ -40,7 +40,7 @@
     "start": "webpack serve --config webpack.dev.js"
   },
   "dependencies": {
-    "@rcl/home-screen": "^1.2.0",
-    "@rcl/html": "^1.1.0"
+    "@rcl/home-screen": "^1.2.1",
+    "@rcl/html": "^1.1.1"
   }
 }
