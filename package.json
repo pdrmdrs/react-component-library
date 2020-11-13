@@ -1,12 +1,12 @@
 {
   "name": "react-component-library",
-  "version": "1.0.0",
   "description": "Simple react component library, built with lerna focusing on hybrid components that will work on web and mobile, but will differ at the build time",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "lerna run build",
     "build:html": "lerna run build:html",
+    "bootstrap": "lerna bootstrap",
     "storybook": "lerna run storybook",
     "new-version": "lerna version --conventional-commits --yes --no-private"
   },
@@ -25,9 +25,9 @@
     "lerna": "^3.22.1"
   },
   "workspaces": [
-    "entrypoints/*",
-    "screens/*",
-    "scripts/*",
-    "apps/*"
+    "packages/entrypoints/*",
+    "packages/screens/*",
+    "packages/scripts/*",
+    "packages/apps/*"
   ]
 }

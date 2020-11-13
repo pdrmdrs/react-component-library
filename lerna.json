@@ -1,5 +1,10 @@
 {
-  "packages": ["entrypoints/*", "screens/*", "scripts/*", "apps/*"],
+  "packages": [
+    "packages/entrypoints/*",
+    "packages/screens/*",
+    "packages/scripts/*",
+    "packages/apps/*"
+  ],
   "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true,

@@ -6,6 +6,7 @@
   "homepage": "https://github.com/pdrmdrs/react-component-library/tree/master/entrypoints/html-app#readme",
   "license": "MIT",
   "main": "src/index.js",
+  "private": true,
   "directories": {
     "src": "src"
   },
