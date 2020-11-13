@@ -5,7 +5,11 @@ interface IProps {
 }
 
 function HomeScreen({ nome }: IProps): JSX.Element {
-  return <div>{nome ? <h1>Home Screen {nome}</h1> : <h1>Sem nome</h1>}</div>
+  return (
+    <div style={{ color: 'blue' }}>
+      {nome ? <h1>Home Screen {nome}</h1> : <h1>Sem nome</h1>}
+    </div>
+  )
 }
 
 export default HomeScreen
