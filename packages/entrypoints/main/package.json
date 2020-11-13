@@ -1,6 +1,6 @@
 {
   "name": "@rcl/main",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Main module that holds all packages together in case someone wants to do a single import",
   "author": "Pedro Medeiros <pedro.medeiros@corp.globo.com>",
   "homepage": "https://github.com/pdrmdrs/react-component-library/tree/master/packages/main#readme",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@rcl/contact-screen": "^1.3.2",
-    "@rcl/home-screen": "^1.2.2"
+    "@rcl/home-screen": "^1.3.0"
   },
   "devDependencies": {
     "@rcl/dom-scripts": "^1.2.1"

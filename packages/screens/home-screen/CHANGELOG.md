@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/pdrmdrs/react-component-library/compare/@rcl/home-screen@1.2.2...@rcl/home-screen@1.3.0) (2020-11-13)
+
+
+### Features
+
+* **home-screen:** add cor azul no texto ([5ae9f2c](https://github.com/pdrmdrs/react-component-library/commit/5ae9f2cccf492e31b2d24f749f20d774580032f6))
+
+
+
+
+
 ## [1.2.2](https://github.com/pdrmdrs/react-component-library/compare/@rcl/home-screen@1.2.1...@rcl/home-screen@1.2.2) (2020-11-13)
 
 **Note:** Version bump only for package @rcl/home-screen
