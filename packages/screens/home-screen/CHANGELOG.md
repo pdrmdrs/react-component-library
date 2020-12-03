@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/pdrmdrs/react-component-library/compare/@rcl/home-screen@1.3.0...@rcl/home-screen@1.4.0) (2020-12-03)
+
+
+### Features
+
+* **home-screen:** add prop textoNaHome ([4eb41b7](https://github.com/pdrmdrs/react-component-library/commit/4eb41b7ed5ecda7a397033f19f9eeab7dbedb458))
+
+
+
+
+
 # [1.3.0](https://github.com/pdrmdrs/react-component-library/compare/@rcl/home-screen@1.2.2...@rcl/home-screen@1.3.0) (2020-11-13)
 
 
